@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vancouver Trumpet Player</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta name="description" content="Vancouver trumpet player, Fred Palidor">
+    
+    <meta name="google-site-verification" content="BhIyuvdWjX3jkkiSwHD0TKd4As0Ic9Y1Rsw6HMk0NbE" />
+
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+
+    <link rel="stylesheet" href="TrumpetStyle.css">
+    
+  </head>
+  <body>
+    <button id="top" onClick="topFunction()">&#9650;</button>
+    <div id="nav">
+      <h1 id="title">Vancouver Trumpet Player</h1>
+      <div id="buttons">
+        <a href="#aboutFred">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#booking">Booking & Samples</a>
+      </div>
+    </div>
+    <div id="aboutFred">
+      <h2 id="about">About Fred</h2>
+      <img src="fred.jpg" id="fred">
+      <div id="aboutContent">
+        <p>Experienced Trumpet Player Based in Vancouver, Canada<br>
+          Dual Canadian - United States Citizen</p><br>
+        <li>Jazz to Classical</li>
+        <li>Clubs</li>
+        <li>Lounges</li>
+        <li>Musical Theatre</li>
+        <li>Private Events - Dances</li>
+        <li>Studio Work</li>
+        <p id="tm">Vancouver Musicians Association<br>
+Canadian Federation of Musicians (AFM) Local 145</p>
+      </div>
+      <div id="aboutPDiv">
+        I started playing the trumpet when I was 9 years old. I am classically trained. Discovering my passion for music at a young age allowed me to pursue a wide range of musical experiences and encounters with musicians from every imaginable music genre that ultimately helped me to understand what I wanted to accomplish as a performer. I have performed with symphonies, small jazz groups, concert bands, large swing bands, musical theatre, in nightclubs (oh yeah…also strip clubs), in lounges, backing up vocalists, at weddings, private parties, dances, and doing studio work.<span id="break"><br></span> My music playing preference? Lead trumpet with small combos and playing good music with good musicians for all occasions, from jazz standards, to show tunes, Latin, blues and light classical. But I’ll consider any good music opportunity. I am not influenced by any particular trumpet player or style ofplaying. I just play the best trumpet I can and tailor the style for each musical occasion. I have good playing skills and I read well. I like to play with a congenial group of musicians who are as passionate as I am about having fun making good music, and being as good as we can be. I live in Vancouver, Canada, but have dual Canadian – United States Citizenship and can work freely in either country within driving distance from Vancouver, B.C.
+      </div>
+    </div>
+    <div id="booking">
+      <h2>Booking & Samples</h2>
+      <p id="bookingP">If you enjoy my music samples and would like to discuss a project, subbing for a performance, or for a steady gig, please drop me a line with your contact information and I’ll give you a call.</p>
+      <p id="email">Email: <a href="mailto:enquiry@trumpetplayervancouver.com">enquiry@trumpetplayervancouver.com</a></p>
+      <div id="samples">
+        <div><img src="misty.jpg"><br>
+          <audio controls>
+            <source src="Misty.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div>
+        <div><img src="magictrumpet.jpg"><br>
+          <audio controls>
+            <source src="The%20Magic%20Trumpet.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div>
+        <div><img src="concerto.jpg"><br>
+          <audio controls>
+            <source src="Concerto%20for%20Trumpet.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div>
+        <div><img src="out.jpg"><br>
+          <audio controls>
+            <source src="Out%20Of%20Nowhere.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div>
+        <div><img src="rainy.jpg"><br>
+          <audio controls>
+            <source src="Here's%20That%20Rainy%20Day.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+      document.getElementById("top").style.display = "block";
+    } else {
+      document.getElementById("top").style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
